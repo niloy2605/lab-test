@@ -1,0 +1,222 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+      font-family: "Montserrat", sans-serif;
+  }
+
+
+
+/* 
+.container{
+     
+    background-color: #fff;
+    width: min(90%, 31.25em);
+    padding: 4em 2em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #142b37;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    box-shadow: 0 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+.wrapper{
+      width: 100%;
+      
+     display: inline;
+     align-items: space-between;
+     gap: 1em;
+     margin-bottom: 30px;
+     background-color: red;   
+}
+
+label{
+      font-size: 1.8em;
+      text-transform: capitalize;
+}
+
+input[type="range"]{
+      width: 80%;
+      margin-left: 10px;
+      cursor: pointer;
+}
+.result{
+     width: 100%;
+     display: grid;
+     grid-template-columns: 7fr 5fr;
+     gap: 1em;
+}
+
+input[type="text"],button{
+      font-size: 1em;
+      border-radius: 0.5em;
+      border: none;
+      outline: none;
+}
+
+input[type="text"]{
+      background-color: #ebeaea;
+      padding: 1.2em 0.5em;
+      margin-top: 25px;
+      font-weight: 400;
+      
+}
+input[type="text"]::selection{
+      background-color: transparent;
+}
+
+button{
+      margin-top: 25px;
+      background-color: #0075ff;
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer;
+} */
+
+/* increment and decrement  */
+ 
+body{
+      background-color: #32a6ff39;
+}
+#model-box{
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       width: 80%;
+       padding: 30px;
+       max-width: 400px;
+       background-color: #fff;
+       border-radius: 5px;
+       overflow: hidden;
+}
+.offer-text{
+       padding: 40px 20px;
+       line-height: 1.4;
+       
+}
+.offer-text h2{
+       font-size: 30px;
+       font-weight: 700;
+
+}
+.subhead{
+       margin-top: 5px;
+      font-size: 16px;
+      font-weight:550;
+      
+}
+.tagline{
+       margin-top: 20px;
+      font-size: 16px;
+      font-weight: 500;
+
+}
+.offer-text form{
+       margin-top: 25px;
+       display: flex;
+       background-color: #f0f0f0;
+       border-radius: 5px;
+}
+.offer-text input{
+      flex: 1;
+      border: none;
+      background-color: transparent;
+      padding: 10px;
+      
+}
+.offer-text button{
+      border: none;
+      outline: none;
+      padding: 8px 15px;
+      background-color: #0585da;
+      font-weight: 500;
+      text-transform: capitalize;
+      cursor: pointer;
+      border-radius: 5px;
+}
+.logo{
+    padding-left: 20px;
+    color: #0585da;
+    margin: 0;
+    text-transform: capitalize;
+    
+}
+
+
+
+
+.card {
+      width: 190px;
+      height: 254px;
+      padding: .8em;
+      background: #f5f5f5;
+      position: relative;
+      overflow: visible;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     }
+     
+     .card-img {
+      background-color: #ffcaa6;
+      height: 40%;
+      width: 100%;
+      border-radius: .5rem;
+      transition: .3s ease;
+     }
+     
+     .card-info {
+      padding-top: 10%;
+     }
+     
+     svg {
+      width: 20px;
+      height: 20px;
+     }
+     
+     .card-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid #ddd;
+     }
+     
+     /*Text*/
+     .text-title {
+      font-weight: 900;
+      font-size: 1.2em;
+      line-height: 1.5;
+     }
+     
+     .text-body {
+      font-size: .9em;
+      padding-bottom: 10px;
+     }
+     
+     /*Button*/
+     .card-button {
+      border: 1px solid #252525;
+      display: flex;
+      padding: .3em;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: .3s ease-in-out;
+     }
+     
+     /*Hover*/
+     .card-img:hover {
+      transform: translateY(-25%);
+      box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+     }
+     
+     .card-button:hover {
+      border: 1px solid #ffcaa6;
+      background-color: #ffcaa6;
+     }
+     
